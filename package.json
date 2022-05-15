@@ -3,9 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "description": "The lib read a md type file, and test the http status code of the links in the file",
-  "main": "index.js",
+  "main": "cli.js",
+  "preferGlobal": true,
   "scripts": {
     "cli": "node --trace-warnings cli.js"
+  },
+  "bin": {
+    "lib-markdown": "./cli.js"
   },
   "keywords": [
     "markdown",
@@ -20,6 +24,7 @@
     "url": "https://github.com/luizambrozini/lib-Markdown/issues",
     "email": "luizambrozini@gmail.com"
   },
+  "homepage": "https://github.com/luizambrozini/lib-Markdown",
   "dependencies": {
     "chalk": "^5.0.1",
     "node-fetch": "^3.2.4"
