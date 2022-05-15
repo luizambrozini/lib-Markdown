@@ -3,14 +3,15 @@
 The library reads files of type MD, and looks for URLs. It then tests the URLs by returning the status code of each link.
 
 <h2>Description</h2>
-<p>In the following path we will have an example md file:</p>
 <hr />
+<p>In the following path we will have an example md file:</p>
+
 File test.<br />Here has a url \[URLTest1\]\(http://google.com.br)<br>
 Here has other url \[URLTeste2\]\(http://linux.org)
 
-
-<p>The expected result are:</p>
 <hr />
+<p>The expected result are:</p>
+
 "Links States: [
   { URLTest1: 'http://google.com.br', status: 200 },
   { URLTeste2: 'http://linux.org', status: 200 }
