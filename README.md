@@ -5,11 +5,8 @@ The library reads files of type MD, and looks for URLs. It then tests the URLs b
 <h2>Description</h2>
 <p>In the following path we will have an example md file:</p>
 <hr />
-"File test.
-
-Here has a url \[URLTest1\]\(http://google.com.br)
-
-Here has other url \[URLTeste2\]\(http://linux.org)"
+File test.<br />Here has a url \[URLTest1\]\(http://google.com.br)<br>
+Here has other url \[URLTeste2\]\(http://linux.org)
 
 
 <p>The expected result are:</p>
