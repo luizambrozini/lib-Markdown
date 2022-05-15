@@ -15,7 +15,11 @@
     "URL"
   ],
   "author": "Luiz Antonio Moreau Ambroizini",
-  "license": "GNU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizambrozini/lib-Markdown/issues",
+    "email": "luizambrozini@gmail.com"
+  },
   "dependencies": {
     "chalk": "^5.0.1",
     "node-fetch": "^3.2.4"
