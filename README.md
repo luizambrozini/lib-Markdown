@@ -14,13 +14,10 @@ Here has other url \[URLTeste2\]\(http://linux.org)
 
 <p>The expected result are:</p>
 <hr />
-Links States: [
-
+"Links States: [
   { URLTest1: 'http://google.com.br', status: 200 },
-
   { URLTeste2: 'http://linux.org', status: 200 }
-
-]
+]"
 
 <hr />
 
