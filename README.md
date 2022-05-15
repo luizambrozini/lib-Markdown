@@ -9,6 +9,7 @@ The library reads files of type MD, and looks for URLs. It then tests the URLs b
 File test.
 
 Here has a url \[URLTest1\]\(http://google.com.br)
+
 Here has other url \[URLTeste2\]\(http://linux.org)
 
 </code>
@@ -17,7 +18,8 @@ Here has other url \[URLTeste2\]\(http://linux.org)
 <hr />
 <code>
 Links States: [
-  { URLTest1: 'http://google.com.br', status: 200 },</br>
+  { URLTest1: 'http://google.com.br', status: 200 },
+  
   { URLTeste2: 'http://linux.org', status: 200 }
 ]
 </code>
