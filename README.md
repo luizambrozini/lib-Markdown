@@ -17,7 +17,7 @@ Here has other url \[URLTeste2\]\(http://linux.org)
 <hr />
 <code>
 Links States: [
-  { URLTest1: 'http://google.com.br', status: 200 },
+  { URLTest1: 'http://google.com.br', status: 200 },</br>
   { URLTeste2: 'http://linux.org', status: 200 }
 ]
 </code>
