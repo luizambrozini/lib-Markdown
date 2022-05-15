@@ -12,7 +12,6 @@ Here has a url \[URLTest1\]\(http://google.com.br)
 Here has other url \[URLTeste2\]\(http://linux.org)
 
 </code>
-<hr />
 
 <p>The expected result are:</p>
 <hr />
@@ -22,4 +21,7 @@ Links States: [
   { URLTeste2: 'http://linux.org', status: 200 }
 ]
 </code>
+
 <hr />
+
+![Badge "chalk": "^5.0.1"]
