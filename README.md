@@ -24,4 +24,7 @@ Links States: [
 
 <hr />
 
-![Badge "chalk": "^5.0.1"]
+<h2>Dependencies:</h2>
+
+    "chalk": "^5.0.1"
+    "node-fetch": "^3.2.4"
