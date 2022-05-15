@@ -1,0 +1,23 @@
+{
+  "name": "lib-markdown",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The lib read a md type file, and test the http status code of the links in the file",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node --trace-warnings cli.js"
+  },
+  "keywords": [
+    "markdown",
+    "http",
+    "https",
+    "md",
+    "URL"
+  ],
+  "author": "Luiz Antonio Moreau Ambroizini",
+  "license": "GNU",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^3.2.4"
+  }
+}
